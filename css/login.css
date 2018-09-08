@@ -1,0 +1,47 @@
+#header
+ {
+    background-color:#00FFFF;
+    color:w	#000000;
+    text-align:center;
+    padding:5px;
+}
+#section1 {
+	width:1200px;
+	height:170px;
+    float:right;
+	text-align:center;
+    padding:10px; 
+	background:#C0C0C0;
+}
+#section2 {
+    width:1200px;
+	height:190px;
+    float:right;
+	text-align:center;
+    padding:10px; 
+	background:#eeeeee;
+}
+#section3 {
+    width:1200px;
+	height:170px;
+    float:right;
+	text-align:center;
+    padding:10px; 
+	background:#FAEBD7;
+}
+#nav{
+	width:223px;
+	height:570px;
+    float:left;
+	text-align:center;
+    padding:10px; 
+	color:black;
+	background:#7FFFD4;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}

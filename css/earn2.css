@@ -1,0 +1,190 @@
+html {
+  background-color: #fff;
+}
+
+html, body {
+    margin: 0;
+	font-size: 16px;
+}
+
+#page-login {
+  height: 543px;
+  background: #ea9e27 url('../image/login_bg.png') no-repeat bottom 0 left 0;
+  position: relative;
+}
+
+#login-form-wrapper {
+  width: 402px;
+  height: 366px;
+  padding: 70px;
+  float: right;
+}
+
+#login-form-wrapper .site-title {
+  margin: 10px auto;
+  width: 402px;
+  height: 39px;
+}
+
+#login-form {
+  width: 402px;
+  height: 280px;
+  background-image: url('../image/login_form.png');
+  position: relative;
+}
+
+#login-form #select
+{
+  position: absolute;
+  top: 177px;
+  left: 50px;
+  width: 305px;
+  height: 26px;
+  background: none;
+  border: none;
+}
+
+#login-form #username {
+  position: absolute;
+  top: 56px;
+  left: 80px;
+  width: 275px;
+  height: 20px;
+  background: none;
+  border: none;
+}
+
+#login-form #password {
+  position: absolute;
+  top: 139px;
+  left: 80px;
+  width: 275px;
+  height: 20px;
+  background: none;
+  border: none;
+}
+
+#login-form #submit {
+  position: absolute;
+  top: 207px;
+  left: 50px;
+  width: 305px;
+  height: 26px;
+  background: none;
+  border: none;
+}
+
+.error {
+  color: #f00;
+}
+
+#login-form .error {
+  position: absolute;
+  top: 180px;
+  left: 50px;
+}
+
+.header {
+  background-color: #ea9e27;
+  height: 50px;
+  width: 100%;
+  border-bottom: 2px solid #ddd;
+}
+
+.header img {
+  width: 200px;
+  height: auto;
+  float: left;
+  display: block;
+  padding: 12px;
+}
+
+.header input {
+  margin: 0.5em;
+  float: right;
+}
+
+.sidebar {
+  width: 149px;
+  border-right: 1px solid #ddd;
+  min-height: 500px; /*100%;*/
+  float: left;
+  margin-right: -150px;
+  background-color: rgb(243, 244, 248);
+  border-top: 1px solid #ddd;
+  position: relative;
+  z-index: 1;
+}
+
+.sidebar ul {
+  padding: 0;
+}
+
+.sidebar li {
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5em;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.sidebar a, .sidebar a:hover {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.content-wrapper {
+  margin-right: -100%;
+  width: 100%;
+  padding-bottom: 1px;
+  background-color: rgb(243, 244, 248);
+  border-top: 1px solid #ddd;
+  float: left;
+}
+
+.content {
+  min-height: 500px;
+  margin: 10px 20px 20px 170px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 1em;
+}
+
+.title {
+  background-color: #ea9e27;
+  margin: 20px 20px 10px 170px;
+  padding: 2px 5px;
+  color: #fff;
+}
+
+.content .title {
+  margin: 10px;
+}
+
+.ticket {
+  border-radius: 5px;
+  background: #ea9e27 url('../image/users.png') no-repeat 10px center;
+  width: 180px;
+  height: 100px;
+  padding: 20px 10px 10px 80px;
+  margin: 10px;
+  float: left;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ticket .number {
+  font-size: 2em;
+}
+
+form {
+  margin: 0; /* fix Firefox margin-top issue */
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: #ea9e27;
+  border-color: #ccc;
+}

@@ -1,0 +1,38 @@
+#header
+ {
+    background-color:#00FFFF;
+    color:w	#000000;
+    text-align:center;
+    padding:5px;
+	width:1450px;
+}
+#section1 {
+	width:1450px;
+	height:210px;
+    float:center;
+    padding:10px; 
+	background:#C0C0C0;
+}
+#section2 {
+    width:1450px;
+    float:center;
+	text-align:center;
+    padding:10px; 
+	background:#eeeeee;
+}
+#nav{
+	width:223px;
+	height:570px;
+    float:left;
+	text-align:center;
+    padding:10px; 
+	color:black;
+	background:#7FFFD4;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
